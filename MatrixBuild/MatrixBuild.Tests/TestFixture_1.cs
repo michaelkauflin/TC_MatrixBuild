@@ -11,7 +11,7 @@ namespace MatrixBuild.Tests
    internal sealed class TestFixture_1
     {
         [Category("A")]
-        [Test]
+        [TestCase(Result = true)]
         public bool IsTrueTest()
         {
             return true;
